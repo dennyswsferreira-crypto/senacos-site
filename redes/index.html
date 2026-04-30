@@ -3,12 +3,101 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Redes</title>
+    <title>Wireframe - Redes</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+        header, nav, main, section, article, aside, footer {
+            border: 1px solid #999;
+            padding: 15px;
+            margin: 10px;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            gap: 10px;
+        }
+        .container {
+            display: flex;
+        }
+        main {
+            flex: 3;
+        }
+        aside {
+            flex: 1;
+        }
+    </style>
 </head>
+
 <body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Nome da Empresa</h1>
+        <p>Logo / Slogan</p>
+    </header>
+
+    <!-- Menu de navegação -->
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Sobre</a></li>
+            <li><a href="#">Serviços</a></li>
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <!-- Conteúdo principal -->
     <div class="container">
-        <h1> Protocolos </h1>
-        <p> Protocolos WEB </p>
+
+        <main>
+
+            <!-- Seção destaque -->
+            <section>
+                <h2>Destaque</h2>
+                <p>Banner / chamada principal</p>
+            </section>
+
+            <!-- Seção serviços -->
+            <section>
+                <h2>Serviços</h2>
+
+                <article>
+                    <h3>Serviço 1</h3>
+                    <p>Descrição do serviço</p>
+                </article>
+
+                <article>
+                    <h3>Serviço 2</h3>
+                    <p>Descrição do serviço</p>
+                </article>
+
+                <article>
+                    <h3>Serviço 3</h3>
+                    <p>Descrição do serviço</p>
+                </article>
+
+            </section>
+
+        </main>
+
+        <!-- Barra lateral -->
+        <aside>
+            <h2>Informações Extras</h2>
+            <p>Links, notícias ou anúncios</p>
+        </aside>
+
     </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2026 - Nome da Empresa</p>
+        <p>Endereço | Telefone | Redes Sociais</p>
+    </footer>
+
 </body>
 </html>
